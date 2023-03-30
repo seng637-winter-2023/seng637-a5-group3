@@ -28,6 +28,14 @@ For the RGT testing we used C-SFRAT tool on the ds1 dataset and measured the res
 The best model had am AIC value of 63.60 and BIC of 66.100.
  ![image](https://user-images.githubusercontent.com/104803633/228938027-58a58c69-66c8-49ed-89da-06af4c288d27.png)
   
+ Time-Interval plot
+  ![image](https://user-images.githubusercontent.com/104803633/228941895-1ad21e27-e98c-43cd-b136-bf1ae156aa89.png)
+For as we experiment with different time intervals DW2(F) gets better as failure is decreasing the above figure represents the 3 best models with nuimber of intervals as 20.
+  
+  Intensity plot
+  ![image](https://user-images.githubusercontent.com/104803633/228958170-beee9cf0-2e67-4776-8120-cd26f199b125.png)
+
+  
   
 
   
