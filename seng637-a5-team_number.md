@@ -36,14 +36,14 @@ For as we experiment with different time intervals DW2(F) gets better as failure
   ![image](https://user-images.githubusercontent.com/104803633/228958170-beee9cf0-2e67-4776-8120-cd26f199b125.png)
   
   
-  As seen from the plot, the failure rate and mean time to failure (MTTF) for the original failure data and the predictions at the last interval (31) are:
+  As seen from the plot, the failure rate and mean time to failure (MTTF) for the original failure data and the predictions at the last interval (17) are:
   | Dataset        | Failure Rate (F/Interval) | MTTF (intervals) |
 |----------------|---------------------------|------------------|
 | Raw Data       | 17/54 = 0.315             | 1/0.315 = 3.174  |
 | DW3 Prediction | 17/54 = 0.315             | 1/0.315 = 3.174  |
 | GM Prediction  | 17/54 = 0.315             | 1/0.315 = 3.174  |
 
-  
+ From the table we can see that with the models the failure rate is 0.315. so for a business if the acceptable range of failure is is above this value it means  it is acceptable else it is not.
   
 
   
