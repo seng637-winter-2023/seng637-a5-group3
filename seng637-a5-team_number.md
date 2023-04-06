@@ -56,6 +56,46 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 | Developer's Risk (α) | 0.100|            
 | User's Risk (β) | 0.100|           
 
+  Below is a table of Cumulative Failure Count, Cumulative Execution Time, Time Between Failures.
+| Cumulative Failure Count | Cumulative Execution Time (hours) | Time Between Failures (hours) |
+|--------------------------|-----------------------------------|-------------------------------|
+| 1  | 2.0 | 2.0   |
+| 2  | 5.0 | 3.0   |
+| 3  | 10.0 | 5.0  |
+| 4  | 11.0 | 1.0  | 
+| 5  | 12.3 | 1.3  |
+| 6  | 13.5 | 2.2  |
+| 7  | 16.6 | 3.1  |
+| 8  | 21.0 | 4.4  |
+| 9  | 25.8 | 4.8  |
+| 10  | 31.4 | 5.6 |
+| 11  | 37.6 | 6.2 |
+| 12  | 45.3 | 7.7 |
+| 13  | 53.3 | 8.0 |
+| 14  | 61.6 | 8.3 |
+| 15  | 70.5 | 8.9 |
+| 16  | 79.6 | 9.1 |
+  
+ RDC plots:
+  
+ 1. The first plot consists of FIO = 16 failures/79.6 intervals = 0.201, taking the inverse to get a MTTF value of = 1/0.201 = 4.975.
+  ![image](https://user-images.githubusercontent.com/104797814/230473183-fdd71270-38fd-48ae-91a4-3d4e929522d6.png)
+  
+  2. The second plot consists of FIO = 19 failures/79.6 intervals = 0.238, taking the inverse to get a MTTF value of 1/0.238 = 4.189.
+  ![image](https://user-images.githubusercontent.com/104797814/230474252-3741a663-25e0-4a55-a62a-2579e692573c.png)
+
+  3. The third plot consists of doubling the minimum MTTF, which will be equal to 4.189 * 2 = 8.378.
+  ![image](https://user-images.githubusercontent.com/104797814/230474901-f0819cad-38b5-4f59-9e86-899bab210862.png)
+
+  4. The fourth plot consists of halving the minimum MTTF, which will be equal to 4.189 / 2 = 2.0945.
+  ![image](https://user-images.githubusercontent.com/104797814/230475275-0399726d-30d4-4d84-84e0-d88d2253a82a.png)
+
+
+  
+
+
+ 
+  
 # 
 
 # Comparison of Results
