@@ -49,6 +49,12 @@ For as we experiment with different time intervals DW2(F) gets better as failure
   
 
 # Assessment Using Reliability Demonstration Chart 
+  The following table details the parameters used in the RDC-11 Excel sheet used to graph and assess Failure Report 8.
+| Parameter      | Parameter Value |
+|----------------|-----------------|
+| Discrimination Ratio (γ) | 2.000|          
+| Developer's Risk (α) | 0.100|            
+| User's Risk (β) | 0.100|           
 
 # 
 
