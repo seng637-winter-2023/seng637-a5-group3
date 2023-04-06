@@ -89,23 +89,29 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
   4. The fourth plot consists of halving the minimum MTTF, which will be equal to 4.189 / 2 = 2.0945.
   ![image](https://user-images.githubusercontent.com/104797814/230475275-0399726d-30d4-4d84-84e0-d88d2253a82a.png)
-
-
-  
-
-
  
-  
+  The minimum MTTF value was determined by trying to find a failure count across the total number of intervals which we found to be 19 failures over 79.6 intervals. By taking the inverse of this value we determined the minimum MTTF to be 4.189. We changed the FIO value until this minimum was determined, it is where the SUT is in the `Continue Test` region, not yet entering the `Accept` region.
 # 
 
 # Comparison of Results
+  For the Reliability Growth Testing, a MTTF value of 3.174 was obtained. For the Reliability Demonstration Chart we obtained a minimum MTTF value of 4.189. Due to the similarity of these values across the same failure set, therefore we can consider them to be valid. 
+  
 
 # Discussion on Similarity and Differences of the Two Techniques
+  - Reliability Growth Testing mainly focusses on trying to improve reliability of a product or system, on the otherhand, Reliability Demonstration Chart focusses on demonstrating a product's required reliability expectations. This makes RDC especially useful for conveying information to investors or stakeholders.
+  - Reliability Growth Testing is done iteratively, whereas Reliability Demonstration Chart is performed through taking a small sample of product to test and verify its reliability.
+  - Similar in that they both rely on statistcal analysis to analyze a product, system or service's reliability
+  - Both are used to improve and assess quality and reliability
+  
 
 # How the team work/effort was divided and managed
+  Temmy and Vishal focussed mainly on Part 1. of the assignment, which involves Reliability Growth Testing.
+  Brandon and Aaryan focussed mainly on Part 2. of the assignment, which involves using the Reliability Demonstration Chart Excel spreadsheet.
 
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+  - One of the difficulties encountered was when testing using RDC, the spreadsheet needed to be set to unprotected in order to use it
 
 # Comments/feedback on the lab itself
+  - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and exphasize different aspects of testing quality and reliability
