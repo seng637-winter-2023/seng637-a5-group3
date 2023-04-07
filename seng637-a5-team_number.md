@@ -100,7 +100,7 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 # Discussion on Similarity and Differences of the Two Techniques
   - Reliability Growth Testing mainly focusses on trying to improve reliability of a product or system, on the otherhand, Reliability Demonstration Chart focusses on demonstrating a product's required reliability expectations. This makes RDC especially useful for conveying information to investors or stakeholders.
   - Reliability Growth Testing is done iteratively, whereas Reliability Demonstration Chart is performed through taking a small sample of product to test and verify its reliability.
-  - Similar in that they both rely on statistcal analysis to analyze a product, system or service's reliability
+  - Both similiar in that they both rely on statistical analysis to analyze a product, system or service's reliability
   - Both are used to improve and assess quality and reliability
   
 
@@ -117,4 +117,4 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
 # Comments/feedback on the lab itself
   - Compared to other assignements more details instructions could have been given in this lab. the lab is small compared to other but the confusion regarding dataset and operating tools made this assignment a bit hard.
-  - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and exphasize different aspects of testing quality and reliability
+  - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and emphasize different aspects of testing quality and reliability
