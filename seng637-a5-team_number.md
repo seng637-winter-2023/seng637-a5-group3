@@ -124,14 +124,14 @@ Disadvantages of RDC:
   
 
 # How the team work/effort was divided and managed
-  Temmy and Vishal focussed mainly on Part 1. of the assignment, which involves Reliability Growth Testing.
-  Brandon and Aaryan focussed mainly on Part 2. of the assignment, which involves using the Reliability Demonstration Chart Excel spreadsheet.
+  Temi and Vishal focussed mainly on Part 1. of the assignment, which involves Reliability Growth Testing.
+  Brandon and Aaryan focussed mainly on Part 2. of the assignment, which involves using the Reliability Demonstration Chart Excel spreadsheet. At the end, we all met to discuss how each pair executed the section they focused on.
 
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
   - One of the difficulties faced was the overall confusion regarding the dataset and which one's to use. it would have been better if a proper dataset has been given in the proper format(excel or txt) which could have saved a lot of time.
-  - more details and instruction on how to operate on C-SFRAT could have been useful.
+  - More details and instruction on how to operate on C-SFRAT could have been useful.
   - One of the difficulties encountered was when testing using RDC, the spreadsheet needed to be set to unprotected in order to use it
 
 # Comments/feedback on the lab itself
