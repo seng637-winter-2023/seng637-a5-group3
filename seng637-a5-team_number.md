@@ -111,7 +111,10 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+  - One of the difficulties faced was the overall confusion regarding the dataset and which one's to use. it would have been better if a proper dataset has been given in the proper format(excel or txt) which could have saved a lot of time.
+  - more details and instruction on how to operate on C-SFRAT could have been useful.
   - One of the difficulties encountered was when testing using RDC, the spreadsheet needed to be set to unprotected in order to use it
 
 # Comments/feedback on the lab itself
+  - Compared to other assignements more details instructions could have been given in this lab. the lab is small compared to other but the confusion regarding dataset and operating tools made this assignment a bit hard.
   - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and exphasize different aspects of testing quality and reliability
