@@ -28,11 +28,11 @@ For the RGT testing we used C-SFRAT tool on the ds1 dataset and measured the res
 The best model had am AIC value of 63.60 and BIC of 66.100.
  ![image](https://user-images.githubusercontent.com/104803633/228938027-58a58c69-66c8-49ed-89da-06af4c288d27.png)
   
- Time-Interval plot
+ ### Time-Interval plot
   ![image](https://user-images.githubusercontent.com/104803633/228941895-1ad21e27-e98c-43cd-b136-bf1ae156aa89.png)
 For as we experiment with different time intervals DW2(F) gets better as failure is decreasing the above figure represents the 3 best models with nuimber of intervals as 20.
   
-  Intensity plot
+  ### Intensity plot
   ![image](https://user-images.githubusercontent.com/104803633/228958170-beee9cf0-2e67-4776-8120-cd26f199b125.png)
   
   
@@ -45,9 +45,9 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
  From the table we can see that with the models the failure rate is 0.315. so for a business if the acceptable range of failure is is above this value it means  it is acceptable else it is not.
   
-# Advantages and disadvantages of reliabililty growth analysis
+## Advantages and disadvantages of reliabililty growth analysis
   
-Advantages:
+### Advantages:
 
 1. Helps find and fix reliability problems early, saving time and money later in the product's life cycle.
   
@@ -55,7 +55,7 @@ Advantages:
   
 3. Helps identify the root cause of failures, so organizations can take action to improve reliability.
 
-Disadvantages:
+#### Disadvantages:
 
 1. Collecting the data needed for RGA can be costly and time-consuming, especially for complex products or systems.
   
@@ -63,6 +63,17 @@ Disadvantages:
   
 3. Expertise in statistical analysis and reliability engineering is required, which can be challenging for organizations that don't have these resources.
   
+
+## Discussion on decision making given a target failure rate
+In reliability assessment, a reliability demonstration chart (RDC) is a graphical tool used to determine if a system meets its specified reliability requirements. The RDC displays the relationship between the reliability of a system and the number of units tested. It is often used in situations where the target failure rate is known and the goal is to demonstrate that a system meets or exceeds that rate.
+
+When using the RDC, decision making is an important part of the process. The target failure rate is the maximum allowable failure rate for the system being tested. If the actual failure rate is lower than the target failure rate, the system meets the reliability requirements. However, if the actual failure rate is higher than the target failure rate, the system fails the reliability requirements and corrective action must be taken.
+
+The decision-making process for using the RDC involves setting the appropriate sample size and number of failures to achieve the desired confidence level. This can be done through statistical analysis and probability calculations. The RDC is then used to plot the data and visually determine if the system meets the reliability requirements.
+
+If the system does not meet the reliability requirements, there are several options for corrective action. This may include redesigning the system to improve its reliability, implementing more rigorous testing procedures, or increasing the sample size and number of tests. The decision on which corrective action to take depends on the severity of the problem and the cost and time constraints involved.
+
+Decision making in reliability assessment using the RDC involves careful analysis of statistical data and balancing the costs and benefits of various corrective actions. It is important to ensure that the system meets the required reliability standards to ensure safe and effective operation.
 
 # Assessment Using Reliability Demonstration Chart 
   The following table details the parameters used in the RDC-11 Excel sheet used to graph and assess Failure Report 8.
