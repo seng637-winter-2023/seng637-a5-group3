@@ -93,23 +93,23 @@ For as we experiment with different time intervals DW2(F) gets better as failure
   The minimum MTTF value was determined by trying to find a failure count across the total number of intervals which we found to be 19 failures over 79.6 intervals. By taking the inverse of this value we determined the minimum MTTF to be 4.189. We changed the FIO value until this minimum was determined, it is where the SUT is in the `Continue Test` region, not yet entering the `Accept` region.
 # 
 
-#Advantages and disadvantages of RDC
+# Advantages and disadvantages of RDC
 
 Advantages of RDC:
 
-RDC is convenient for participants, who can complete surveys or provide data from their own homes, saving time and effort.
+1. RDC is convenient for participants, who can complete surveys or provide data from their own homes, saving time and effort.
 
-RDC is often cheaper than in-person data collection because it eliminates the need for a physical location and equipment.
+2. RDC is often cheaper than in-person data collection because it eliminates the need for a physical location and equipment.
 
-RDC can increase the sample size as it enables researchers to reach more people via online platforms.
+3. RDC can increase the sample size as it enables researchers to reach more people via online platforms.
 
 Disadvantages of RDC:
 
-Researchers have limited control over the environment in which participants provide data, which can affect the accuracy and quality of the data.
+1. Researchers have limited control over the environment in which participants provide data, which can affect the accuracy and quality of the data.
 
-RDC is not accessible to all populations, particularly those without internet access or who are not comfortable using technology.
+2. RDC is not accessible to all populations, particularly those without internet access or who are not comfortable using technology.
 
-Technical problems, such as poor internet connectivity or equipment failure, can lead to incomplete or inaccurate data.
+3. Technical problems, such as poor internet connectivity or equipment failure, can lead to incomplete or inaccurate data.
   
 
 # Comparison of Results
