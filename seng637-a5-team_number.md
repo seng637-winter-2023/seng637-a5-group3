@@ -45,7 +45,23 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
  From the table we can see that with the models the failure rate is 0.315. so for a business if the acceptable range of failure is is above this value it means  it is acceptable else it is not.
   
+# Advantages and disadvantages of reliabililty growth analysis
+  
+Advantages:
 
+1. Helps find and fix reliability problems early, saving time and money later in the product's life cycle.
+  
+2. Lets organizations track the reliability improvement of a product or system over time with measurable results.
+  
+3. Helps identify the root cause of failures, so organizations can take action to improve reliability.
+
+Disadvantages:
+
+1. Collecting the data needed for RGA can be costly and time-consuming, especially for complex products or systems.
+  
+2. Assumptions and models used in RGA may not always be accurate, leading to incorrect conclusions about reliability.
+  
+3. Expertise in statistical analysis and reliability engineering is required, which can be challenging for organizations that don't have these resources.
   
 
 # Assessment Using Reliability Demonstration Chart 
