@@ -49,7 +49,7 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
 ## Advantages and disadvantages of reliabililty growth analysis
   
-###Advantages:
+### Advantages:
 
 1. Helps find and fix reliability problems early, saving time and money later in the product's life cycle.
   
