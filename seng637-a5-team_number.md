@@ -16,7 +16,6 @@ Assignment 5 deals with the analysis of integration test data using Reliability 
 
 we will experimenting with both methods in the lab.
 
-# 
 
 # Assessment Using Reliability Growth Testing 
 For the RGT testing we used C-SFRAT tool on the ds1 dataset and measured the results.C-SFRAT had user friendly interfaceand was easy to work with. using the ds1 spreadsheet the tool was run for the all the models and the spreadsheet was exported. link to spreadsheet<insert link>
@@ -30,11 +29,11 @@ To compare the models, we utilized Akaike's Information Criteria (AIC) and Bayes
 The best model had am AIC value of 63.60 and BIC of 66.100.
  ![image](https://user-images.githubusercontent.com/104803633/228938027-58a58c69-66c8-49ed-89da-06af4c288d27.png)
   
- Time-Interval plot
+#### Time-Interval plot
   ![image](https://user-images.githubusercontent.com/104803633/228941895-1ad21e27-e98c-43cd-b136-bf1ae156aa89.png)
 For as we experiment with different time intervals DW2(F) gets better as failure is decreasing the above figure represents the 3 best models with nuimber of intervals as 20.
   
-  Intensity plot
+####  Intensity plot
   ![image](https://user-images.githubusercontent.com/104803633/228958170-beee9cf0-2e67-4776-8120-cd26f199b125.png)
   
   
@@ -47,12 +46,10 @@ For as we experiment with different time intervals DW2(F) gets better as failure
 
  From the table we can see that with the models the failure rate is 0.315. so for a business if the acceptable range of failure is is above this value it means  it is acceptable else it is not.
  
- # Decision making based on given Target Failure Rate
-  Businesses that are concerned with their software reliability will have a target failure rate or MTTF that is considered acceptable. depending on the acceptable failure rate of the business, we can predict at which interval in the future the failure rate may become unaccepatable for the business.
 
-# Advantages and disadvantages of reliabililty growth analysis
+## Advantages and disadvantages of reliabililty growth analysis
   
-Advantages:
+###Advantages:
 
 1. Helps find and fix reliability problems early, saving time and money later in the product's life cycle.
   
@@ -60,7 +57,7 @@ Advantages:
   
 3. Helps identify the root cause of failures, so organizations can take action to improve reliability.
 
-Disadvantages:
+### Disadvantages:
 
 1. Collecting the data needed for RGA can be costly and time-consuming, especially for complex products or systems.
   
@@ -79,7 +76,8 @@ If the system does not meet the reliability requirements, there are several opti
 
 Decision making in reliability assessment using the RDC involves careful analysis of statistical data and balancing the costs and benefits of various corrective actions. It is important to ensure that the system meets the required reliability standards to ensure safe and effective operation.
   
-# Assessment Using Reliability Demonstration Chart 
+# Assessment Using Reliability Demonstration Chart
+  
   The following table details the parameters used in the RDC-11 Excel sheet used to graph and assess Failure Report 8.
 | Parameter      | Parameter Value |
 |----------------|-----------------|
@@ -107,7 +105,7 @@ Decision making in reliability assessment using the RDC involves careful analysi
 | 15  | 70.5 | 8.9 |
 | 16  | 79.6 | 9.1 |
   
- RDC plots:
+ ### RDC plots:
   
  1. The first plot consists of FIO = 16 failures/79.6 intervals = 0.201, taking the inverse to get a MTTF value of = 1/0.201 = 4.975.
   ![image](https://user-images.githubusercontent.com/104797814/230473183-fdd71270-38fd-48ae-91a4-3d4e929522d6.png)
@@ -125,9 +123,9 @@ Decision making in reliability assessment using the RDC involves careful analysi
 
   
 
-# Advantages and disadvantages of RDC
+## Advantages and disadvantages of RDC
 
-Advantages of RDC:
+### Advantages of RDC:
 
 1. RDC is convenient for participants, who can complete surveys or provide data from their own homes, saving time and effort.
 
@@ -135,7 +133,7 @@ Advantages of RDC:
 
 3. RDC can increase the sample size as it enables researchers to reach more people via online platforms.
 
-Disadvantages of RDC:
+### Disadvantages of RDC:
 
 1. Researchers have limited control over the environment in which participants provide data, which can affect the accuracy and quality of the data.
 
@@ -144,28 +142,27 @@ Disadvantages of RDC:
 3. Technical problems, such as poor internet connectivity or equipment failure, can lead to incomplete or inaccurate data.
   
 
-# Comparison of Results
+## Comparison of Results
   For the Reliability Growth Testing, a MTTF value of 3.174 was obtained. For the Reliability Demonstration Chart we obtained a minimum MTTF value of 4.189. Due to the similarity of these values across the same failure set, therefore we can consider them to be valid. 
   
 
-# Discussion on Similarity and Differences of the Two Techniques
+## Discussion on Similarity and Differences of the Two Techniques
   - Reliability Growth Testing mainly focusses on trying to improve reliability of a product or system, on the otherhand, Reliability Demonstration Chart focusses on demonstrating a product's required reliability expectations. This makes RDC especially useful for conveying information to investors or stakeholders.
   - Reliability Growth Testing is done iteratively, whereas Reliability Demonstration Chart is performed through taking a small sample of product to test and verify its reliability.
   - Both similiar in that they both rely on statistical analysis to analyze a product, system or service's reliability
   - Both are used to improve and assess quality and reliability
   
 
-# How the team work/effort was divided and managed
+## How the team work/effort was divided and managed
   Temi and Vishal focussed mainly on Part 1. of the assignment, which involves Reliability Growth Testing.
   Brandon and Aaryan focussed mainly on Part 2. of the assignment, which involves using the Reliability Demonstration Chart Excel spreadsheet. At the end, we all met to discuss how each pair executed the section they focused on.
+ 
 
-# 
-
-# Difficulties encountered, challenges overcome, and lessons learned
+## Difficulties encountered, challenges overcome, and lessons learned
   - One of the difficulties faced was the overall confusion regarding the dataset and which one's to use. it would have been better if a proper dataset has been given in the proper format(excel or txt) which could have saved a lot of time.
   - More details and instruction on how to operate on C-SFRAT could have been useful.
   - One of the difficulties encountered was when testing using RDC, the spreadsheet needed to be set to unprotected in order to use it
 
-# Comments/feedback on the lab itself
+## Comments/feedback on the lab itself
   - Compared to other assignments more details instructions could have been given in this lab. The lab is small compared to other but the confusion regarding dataset and operating tools made this assignment a bit hard.
   - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and emphasize different aspects of testing quality and reliability
