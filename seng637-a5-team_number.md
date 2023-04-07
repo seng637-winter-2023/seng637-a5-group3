@@ -119,6 +119,8 @@ Decision making in reliability assessment using the RDC involves careful analysi
   4. The fourth plot consists of halving the minimum MTTF, which will be equal to 4.189 / 2 = 2.0945.
   ![image](https://user-images.githubusercontent.com/104797814/230475275-0399726d-30d4-4d84-84e0-d88d2253a82a.png)
  
+  ### Deciding on MTTF min
+  
   The minimum MTTF value was determined by trying to find a failure count across the total number of intervals which we found to be 19 failures over 79.6 intervals. By taking the inverse of this value we determined the minimum MTTF to be 4.189. We changed the FIO value until this minimum was determined, it is where the SUT is in the `Continue Test` region, not yet entering the `Accept` region.
 
   
