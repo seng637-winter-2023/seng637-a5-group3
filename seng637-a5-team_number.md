@@ -93,6 +93,25 @@ For as we experiment with different time intervals DW2(F) gets better as failure
   The minimum MTTF value was determined by trying to find a failure count across the total number of intervals which we found to be 19 failures over 79.6 intervals. By taking the inverse of this value we determined the minimum MTTF to be 4.189. We changed the FIO value until this minimum was determined, it is where the SUT is in the `Continue Test` region, not yet entering the `Accept` region.
 # 
 
+#Advantages and disadvantages of RDC
+
+Advantages of RDC:
+
+RDC is convenient for participants, who can complete surveys or provide data from their own homes, saving time and effort.
+
+RDC is often cheaper than in-person data collection because it eliminates the need for a physical location and equipment.
+
+RDC can increase the sample size as it enables researchers to reach more people via online platforms.
+
+Disadvantages of RDC:
+
+Researchers have limited control over the environment in which participants provide data, which can affect the accuracy and quality of the data.
+
+RDC is not accessible to all populations, particularly those without internet access or who are not comfortable using technology.
+
+Technical problems, such as poor internet connectivity or equipment failure, can lead to incomplete or inaccurate data.
+  
+
 # Comparison of Results
   For the Reliability Growth Testing, a MTTF value of 3.174 was obtained. For the Reliability Demonstration Chart we obtained a minimum MTTF value of 4.189. Due to the similarity of these values across the same failure set, therefore we can consider them to be valid. 
   
@@ -116,5 +135,5 @@ For as we experiment with different time intervals DW2(F) gets better as failure
   - One of the difficulties encountered was when testing using RDC, the spreadsheet needed to be set to unprotected in order to use it
 
 # Comments/feedback on the lab itself
-  - Compared to other assignements more details instructions could have been given in this lab. the lab is small compared to other but the confusion regarding dataset and operating tools made this assignment a bit hard.
+  - Compared to other assignments more details instructions could have been given in this lab. The lab is small compared to other but the confusion regarding dataset and operating tools made this assignment a bit hard.
   - The assignment was an interesting experience to get to test reliability tools, both are extremely useful and emphasize different aspects of testing quality and reliability
