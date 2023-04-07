@@ -68,7 +68,17 @@ Disadvantages:
   
 3. Expertise in statistical analysis and reliability engineering is required, which can be challenging for organizations that don't have these resources.
   
+## Discussion on decision making given a target failure rate
+In reliability assessment, a reliability demonstration chart (RDC) is a graphical tool used to determine if a system meets its specified reliability requirements. The RDC displays the relationship between the reliability of a system and the number of units tested. It is often used in situations where the target failure rate is known and the goal is to demonstrate that a system meets or exceeds that rate.
 
+When using the RDC, decision making is an important part of the process. The target failure rate is the maximum allowable failure rate for the system being tested. If the actual failure rate is lower than the target failure rate, the system meets the reliability requirements. However, if the actual failure rate is higher than the target failure rate, the system fails the reliability requirements and corrective action must be taken.
+
+The decision-making process for using the RDC involves setting the appropriate sample size and number of failures to achieve the desired confidence level. This can be done through statistical analysis and probability calculations. The RDC is then used to plot the data and visually determine if the system meets the reliability requirements.
+
+If the system does not meet the reliability requirements, there are several options for corrective action. This may include redesigning the system to improve its reliability, implementing more rigorous testing procedures, or increasing the sample size and number of tests. The decision on which corrective action to take depends on the severity of the problem and the cost and time constraints involved.
+
+Decision making in reliability assessment using the RDC involves careful analysis of statistical data and balancing the costs and benefits of various corrective actions. It is important to ensure that the system meets the required reliability standards to ensure safe and effective operation.
+  
 # Assessment Using Reliability Demonstration Chart 
   The following table details the parameters used in the RDC-11 Excel sheet used to graph and assess Failure Report 8.
 | Parameter      | Parameter Value |
